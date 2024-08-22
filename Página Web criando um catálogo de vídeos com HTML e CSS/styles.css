@@ -1,0 +1,80 @@
+body {
+    color: rgb(255, 255, 255);
+    background:radial-gradient(rgb(0, 0, 0), rgb(111, 4, 4));
+    margin: 0px;
+    font-family: "Lilita One", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 32px;
+    color: rgb(77, 93, 115);
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(145, 4, 4));
+}
+
+.chamada {
+    background: rgb(145, 4, 4);
+    padding-bottom:100px;
+    padding-top: 80px;
+    padding-right: 100px;
+    display: inline-flex;
+    justify-content: center;
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+
+.chamada h3 {
+    color: rgb(0, 200, 255);
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    font-family: "Bungee Tint", sans-serif; 
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145, 4, 4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family:"Lilita One", sans-serif ;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
